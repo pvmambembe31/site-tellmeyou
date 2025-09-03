@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nossos Pacotes - Tell Me You</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pacotes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <header>
         <div class="container header-container">
             <div class="logo">
-                <img src="https://i.imgur.com/ttber5O.png" alt="Tell Me You Logo">
+                <img src="assets/logo.png" alt="Tell Me You Logo">
                 <h1>Tell Me You</h1>
             </div>
             <nav>
@@ -27,93 +30,138 @@
     </header>
 
     <main>
-        <section class="packages" id="packages">
+        <section class="packages-page">
             <div class="container">
                 <h2 class="section-title">Nossos Pacotes</h2>
-                <div class="packages-container">
-                    <div class="package-card">
+                <p class="section-subtitle">Temos um plano perfeito para cada objetivo e nível de conhecimento. Comece
+                    sua jornada para a fluência hoje mesmo!</p>
+
+                <div class="packages-grid">
+
+                    <div class="package-card-material free-tier">
                         <div class="package-header">
-                            <h3>Básico</h3>
+                            <h3 class="package-title">Aula Experimental</h3>
+                            <p class="package-price">Grátis</p>
                         </div>
                         <div class="package-body">
-                            <div class="package-price">R$ 199/mês</div>
+                            <p class="package-description">Conheça nossa metodologia e professora sem compromisso.</p>
                             <ul class="package-features">
-                                <li><i class="fas fa-check"></i> 2 aulas por semana</li>
-                                <li><i class="fas fa-check"></i> Material didático inclusivo</li>
-                                <li><i class="fas fa-check"></i> Acesso à plataforma online</li>
-                                <li><i class="fas fa-check"></i> Aulas individuais</li>
-                                <li><i class="fas fa-check"></i> Duração: 12 meses</li>
+                                <li><i class="fas fa-check"></i> 30 minutos de duração</li>
+                                <li><i class="fas fa-check"></i> Avaliação de nível</li>
+                                <li><i class="fas fa-check"></i> Apresentação do método</li>
+                                <li><i class="fas fa-check"></i> Sem necessidade de cartão</li>
                             </ul>
-                            <a href="contato.html" class="btn" style="width: 100%; text-align: center;">Matricule-se</a>
+                        </div>
+                        <div class="package-footer">
+                            <a href="contato.html" class="btn-package">Agendar Agora</a>
                         </div>
                     </div>
-                    
-                    <div class="package-card">
+
+                    <div class="package-card-material">
                         <div class="package-header">
-                            <h3>Intermediário</h3>
+                            <h3 class="package-title">Básico</h3>
+                            <p class="package-price">R$ 199<span class="price-period">/mês</span></p>
                         </div>
                         <div class="package-body">
-                            <div class="package-price">R$ 299/mês</div>
+                            <p class="package-description">Ideal para iniciantes que querem construir uma base sólida.
+                            </p>
                             <ul class="package-features">
-                                <li><i class="fas fa-check"></i> 3 aulas por semana</li>
-                                <li><i class="fas fa-check"></i> Material didático inclusivo</li>
+                                <li><i class="fas fa-check"></i> 2 aulas/semana (50 min)</li>
+                                <li><i class="fas fa-check"></i> Aulas individuais</li>
+                                <li><i class="fas fa-check"></i> Foco em conversação inicial</li>
+                                <li><i class="fas fa-check"></i> Material didático incluso</li>
+                            </ul>
+                        </div>
+                        <div class="package-footer">
+                            <a href="contato.html" class="btn-package">Matricule-se</a>
+                        </div>
+                    </div>
+
+                    <div class="package-card-material popular">
+                        <div class="popular-badge">Mais Popular</div>
+                        <div class="package-header">
+                            <h3 class="package-title">Intermediário</h3>
+                            <p class="package-price">R$ 299<span class="price-period">/mês</span></p>
+                        </div>
+                        <div class="package-body">
+                            <p class="package-description">Para quem já tem base e busca destravar a fluência.</p>
+                            <ul class="package-features">
+                                <li><i class="fas fa-check"></i> 3 aulas/semana (50 min)</li>
+                                <li><i class="fas fa-check"></i> Aulas individuais</li>
+                                <li><i class="fas fa-check"></i> Atividades práticas extras</li>
                                 <li><i class="fas fa-check"></i> Acesso completo à plataforma</li>
-                                <li><i class="fas fa-check"></i> Aulas individuais</li>
-                                <li><i class="fas fa-check"></i> Atividades práticas extras</li>
-                                <li><i class="fas fa-check"></i> Duração: 10 meses</li>
                             </ul>
-                            <a href="contato.html" class="btn" style="width: 100%; text-align: center;">Matricule-se</a>
+                        </div>
+                        <div class="package-footer">
+                            <a href="contato.html" class="btn-package">Matricule-se</a>
                         </div>
                     </div>
-                    
-                    <div class="package-card">
+
+                    <div class="package-card-material">
                         <div class="package-header">
-                            <h3>Avançado</h3>
+                            <h3 class="package-title">Avançado</h3>
+                            <p class="package-price">R$ 499<span class="price-period">/mês</span></p>
                         </div>
                         <div class="package-body">
-                            <div class="package-price">R$ 499/mês</div>
+                            <p class="package-description">Para refinar o idioma e se preparar para certificações.</p>
                             <ul class="package-features">
-                                <li><i class="fas fa-check"></i> 4 aulas por semana</li>
-                                <li><i class="fas fa-check"></i> Material didático premium</li>
-                                <li><i class="fas fa-check"></i> Acesso ilimitado à plataforma</li>
+                                <li><i class="fas fa-check"></i> 4 aulas/semana (50 min)</li>
                                 <li><i class="fas fa-check"></i> Aulas individuais</li>
-                                <li><i class="fas fa-check"></i> Atividades práticas extras</li>
                                 <li><i class="fas fa-check"></i> Preparação para certificados</li>
-                                <li><i class="fas fa-check"></i> Duração: 8 meses</li>
+                                <li><i class="fas fa-check"></i> Material didático premium</li>
                             </ul>
-                            <a href="contato.html" class="btn" style="width: 100%; text-align: center;">Matricule-se</a>
+                        </div>
+                        <div class="package-footer">
+                            <a href="contato.html" class="btn-package">Matricule-se</a>
                         </div>
                     </div>
+
+                    <div class="package-card-material">
+                        <div class="package-header">
+                            <h3 class="package-title">Inglês para Viagens</h3>
+                            <p class="package-price">R$ 350<span class="price-period">/pacote</span></p>
+                        </div>
+                        <div class="package-body">
+                            <p class="package-description">Curso rápido e focado para sua próxima viagem internacional.
+                            </p>
+                            <ul class="package-features">
+                                <li><i class="fas fa-check"></i> 10 aulas intensivas</li>
+                                <li><i class="fas fa-check"></i> Simulações (aeroporto, hotel)</li>
+                                <li><i class="fas fa-check"></i> Vocabulário específico</li>
+                                <li><i class="fas fa-check"></i> Horários flexíveis</li>
+                            </ul>
+                        </div>
+                        <div class="package-footer">
+                            <a href="contato.html" class="btn-package">Saber Mais</a>
+                        </div>
+                    </div>
+
+                    <div class="package-card-material">
+                        <div class="package-header">
+                            <h3 class="package-title">Business English</h3>
+                            <p class="package-price">R$ 550<span class="price-period">/mês</span></p>
+                        </div>
+                        <div class="package-body">
+                            <p class="package-description">Para profissionais que buscam destaque no mercado global.</p>
+                            <ul class="package-features">
+                                <li><i class="fas fa-check"></i> Foco em reuniões e e-mails</li>
+                                <li><i class="fas fa-check"></i> Vocabulário corporativo</li>
+                                <li><i class="fas fa-check"></i> Apresentações e negociações</li>
+                                <li><i class="fas fa-check"></i> Aulas personalizadas</li>
+                            </ul>
+                        </div>
+                        <div class="package-footer">
+                            <a href="contato.html" class="btn-package">Saber Mais</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Tell Me You</h3>
-                    <p>Curso particular de inglês com metodologia personalizada e foco na conversação.</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Links Rápidos</h3>
-                    <p><a href="index.html" style="color: white;">Início</a></p>
-                    <p><a href="sobre.html" style="color: white;">Sobre</a></p>
-                    <p><a href="pacotes.html" style="color: white;">Pacotes</a></p>
-                    <p><a href="contato.html" style="color: white;">Contato</a></p>
-                </div>
-                <div class="footer-section">
-                    <h3>Contato</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Rua Vlaminck, 228 - Del Castilho, RJ</p>
-                    <p><i class="fas fa-phone"></i> (21) 99877-6230</p>
-                    <p><i class="fas fa-envelope"></i> rachelfdrj90@gmail.com</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© 2025 Tell Me You - Todos os direitos reservados</p>
-            </div>
-        </div>
     </footer>
 </body>
+
 </html>
