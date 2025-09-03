@@ -24,7 +24,8 @@ main {
 
 /* Header e Navegação */
 header {
-    background-color: #6a1b9a; /* Roxo escuro */
+    background-color: #6a1b9a;
+    /* Roxo escuro */
     color: white;
     padding: 15px 0;
     position: sticky;
@@ -74,12 +75,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #8e24aa; /* Roxo mais claro */
+    background-color: #8e24aa;
+    /* Roxo mais claro */
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(106, 27, 154, 0.8), rgba(106, 27, 154, 0.8)), url('https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+    /* Este caminho precisa que o CSS saia da pasta 'css' (../) para encontrar a pasta 'assets' */
+    background: linear-gradient(rgba(106, 27, 154, 0.8), rgba(106, 27, 154, 0.8)), url('../assets/hero-background.jpg') center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -98,7 +101,8 @@ nav ul li a:hover {
 
 .btn {
     display: inline-block;
-    background-color: #ff4081; /* Rosa para contraste */
+    background-color: #ff4081;
+    /* Rosa para contraste */
     color: white;
     padding: 12px 25px;
     border-radius: 30px;
@@ -108,7 +112,8 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background-color: #e91e63; /* Rosa mais escuro */
+    background-color: #e91e63;
+    /* Rosa mais escuro */
     transform: translateY(-3px);
 }
 
@@ -117,32 +122,38 @@ nav ul li a:hover {
     padding: 60px 0;
     background-color: #f3e5f5;
 }
+
 .cta-content {
     display: flex;
     align-items: center;
     gap: 40px;
     flex-wrap: wrap;
 }
+
 .cta-text {
     flex: 1;
     min-width: 300px;
 }
+
 .cta-text h3 {
     font-size: 2rem;
     color: #6a1b9a;
     margin-bottom: 20px;
 }
+
 .cta-text p {
     margin-bottom: 30px;
 }
+
 .cta-image {
     flex: 1;
     min-width: 300px;
 }
+
 .cta-image img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -150,7 +161,8 @@ nav ul li a:hover {
 .section-title {
     text-align: center;
     margin-bottom: 40px;
-    color: #6a1b9a; /* Roxo */
+    color: #6a1b9a;
+    /* Roxo */
     font-size: 2rem;
 }
 
@@ -196,7 +208,8 @@ nav ul li a:hover {
 /* Pacotes */
 .packages {
     padding: 60px 0;
-    background-color: #f3e5f5; /* Roxo muito claro */
+    background-color: #f3e5f5;
+    /* Roxo muito claro */
 }
 
 .packages-container {
@@ -348,12 +361,14 @@ nav ul li a:hover {
     justify-content: center;
     font-size: 1.2rem;
     transition: background-color 0.3s;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 .testimonial-nav button#prevTestimonial {
     transform: translateX(-50%);
     left: 20px;
 }
+
 .testimonial-nav button#nextTestimonial {
     transform: translateX(50%);
     right: 20px;
@@ -465,7 +480,8 @@ nav ul li a:hover {
 
 /* Footer */
 footer {
-    background-color: #4a148c; /* Roxo mais escuro */
+    background-color: #4a148c;
+    /* Roxo mais escuro */
     color: white;
     padding: 40px 0 20px;
     text-align: center;
@@ -508,31 +524,33 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-    
+
     nav ul {
         margin-top: 15px;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     nav ul li {
         margin: 5px 10px;
     }
-    
+
     .hero h2 {
         font-size: 2rem;
     }
-    
+
     .hero p {
         font-size: 1rem;
     }
-    
+
     .testimonial-nav {
-        display: none; /* Em telas pequenas, a navegação será por toque/arrastar */
+        display: none;
+        /* Em telas pequenas, a navegação será por toque/arrastar */
     }
-    
+
     .testimonials-container {
-        overflow-x: auto; /* Permite rolagem com o dedo */
+        overflow-x: auto;
+        /* Permite rolagem com o dedo */
     }
 
     .about-content {
